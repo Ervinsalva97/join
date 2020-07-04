@@ -1,0 +1,115 @@
+html {
+	font-size: 16px;
+}
+
+body{
+    background:URL(img/background.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+
+body{
+    text-align: center;       
+}
+
+a{
+    text-decoration: none;
+}
+
+.s-header{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 260px; 
+    width: 100%;
+    background: #fff; 
+    border-radius: 5px;
+}
+
+img {
+    height: 80%; 
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+div{
+
+    background-repeat:no-repeat;
+    
+}
+
+.button-sn{
+    background: #fff; 
+    color: black;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 2px 0px #fff;
+    border-radius: 5px;
+}
+
+.button-ieee{
+    background: #fff; 
+    color: black;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 2px 0px #fff;
+    border-radius: 5px;
+}
+
+.info-social{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+
+.icon-facebook {
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
+
+.icon-twitter {
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
+
+.icon-instagram {
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
+
+.icon-linkedin{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
+
+.icon-tiktok{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
